@@ -1,4 +1,15 @@
-# Expense-Tracker-Python
+
+# Expense Tracker
+
+A simple Python project that allows users to:
+
+- Add expenses
+- View expenses
+- Calculate total expenses
+- Exit the program
+
+Built using Python.
+
 
 expenses = []
 
