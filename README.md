@@ -1,16 +1,23 @@
+Expense Tracker
 
-# Expense Tracker
+A simple Python application that helps users manage expenses.
 
-A simple Python project that allows users to:
+Features
 
 - Add expenses
 - View expenses
 - Calculate total expenses
-- Exit the program
+- Exit the application
 
-Built using Python.
+Technologies Used
 
+- Python
 
+Author
+
+Pranavi Rao.
+
+code:
 expenses = []
 
 while True:
