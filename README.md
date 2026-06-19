@@ -18,6 +18,10 @@ Author
 Pranavi Rao.
 
 code:
+
+
+
+
 expenses = []
 
 while True:
