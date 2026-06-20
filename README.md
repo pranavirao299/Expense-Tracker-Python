@@ -19,9 +19,9 @@ Pranavi Rao.
 
 code:
 
-expenses = [] 
+expenses = []
 
-while True:
+while True: 
     print("\n===== Expense Tracker =====") 
     print("1. Add Expense") 
     print("2. View Expenses") 
@@ -40,20 +40,18 @@ while True:
     elif choice == "2":
         print("\nExpenses:")
         for name, amount in expenses:
-            print(name, "-", amount)
+                                    print(name, "-", amount)
 
     elif choice == "3":
         total = 0
         for name, amount in expenses:
-             total += amount
+         total += amount
         print("Total Expenses:", total)
 
     elif choice == "4":
         tolnum = len(expenses)
         print("Total number of expenses:", tolnum)
-        
+    
     elif choice == "5":
         print("Thank you for using Expense Tracker!")
-        break
-
-
+        break  
